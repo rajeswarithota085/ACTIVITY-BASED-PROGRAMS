@@ -1,0 +1,133 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0ff;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #3b155e;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.banner {
+    background-color: #e5d5ff;
+    text-align: center;
+    padding: 30px;
+}
+
+.heading {
+    text-align: center;
+    color: purple;
+    margin-top: 30px;
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.events div {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: 8px;
+}
+
+.events div:hover {
+    background-color: #eee3ff;
+}
+
+table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 2px solid purple;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: purple;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eee3ff;
+}
+
+form {
+    background-color: white;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid purple;
+    border-radius: 8px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b155e;
+}
+
+footer {
+    background-color: #3b155e;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    form {
+        width: 80%;
+        box-sizing: border-box;
+    }
+}

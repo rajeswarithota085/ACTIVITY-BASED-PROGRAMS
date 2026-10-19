@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8ef;
+    color: #333;
+}
+
+header {
+    background-color: #743d20;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Welcome Banner */
+.banner {
+    background-color: #f7dfc8;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.banner h2 {
+    color: #743d20;
+    font-size: 28px;
+}
+.heading {
+    text-align: center;
+    color: #743d20;
+    margin-top: 30px;
+    font-size: 28px;
+}
+.food-menu {
+    width: 80%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #a65325;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #ddd;
+}
+
+.food-menu h2 {
+    text-align: center;
+    color: #743d20;
+    margin-bottom: 20px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px dashed #c9a58d;
+    font-size: 17px;
+}
+.menu-item:hover {
+    background-color: #fff0e2;
+}
+
+.menu-item span:last-child {
+    color: #a65325;
+    font-weight: bold;
+}
+
+.special {
+    background-color: #ffe5a8;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 12px;
+    border: 1px solid #e6bd64;
+}
+
+.special h2 {
+    color: #8b4513;
+}
+
+.chef {
+    background-color: #e0f2df;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 12px;
+    border: 1px solid #a5d6a7;
+}
+
+.chef h2 {
+    color: darkgreen;
+}
+
+.chef h3 {
+    color: #743d20;
+}
+.reviews {
+    background-color: #f2e6ff;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 12px;
+    border: 1px solid #d3b5f5;
+}
+
+.reviews h2 {
+    color: #663399;
+}
+
+/* Reservation Form */
+.reservation {
+    background-color: white;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+    border: 1px solid #ead9ca;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #743d20;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    background-color: #a65325;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+form button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #743d20;
+}
+
+/* Footer */
+footer {
+    background-color: #743d20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+    .food-menu {
+        width: auto;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .menu-item {
+        font-size: 15px;
+    }
+
+    .special,
+    .chef,
+    .reviews {
+        margin: 15px;
+        padding: 18px;
+    }
+
+    .reservation {
+        margin: 20px;
+    }
+
+    .heading {
+        font-size: 23px;
+    }
+}
